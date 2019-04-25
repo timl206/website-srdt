@@ -1,13 +1,12 @@
-#header{
+#header {
   min-height: 100px;
   background-color: #111;
 }
-#menu{
+#menu {
   min-height: 40px;
   background-color: #111;
 }
-#body{
-  font-family: 'Open Sans Condensed', sans-serif;
+#body {
   font-weight: 100;
   font-size: 1.1rem;
   min-height: 100px;
@@ -16,14 +15,16 @@
 .title {
   font-family: acumin-pro, sans-serif;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
-#footer{
+#footer {
   min-height: 100px;
   margin-top: 2%;
   background-color: #111;
 }
-#header, #menu, #body{
+#header,
+#menu,
+#body {
   margin-top: 20%;
   margin-left: 18%;
   margin-right: 18%;
@@ -33,11 +34,11 @@
 /* h1 {
 font-family: Lobster, monospace;
 } */
-@viewport{
-  zoom: 1.0;
+@viewport {
+  zoom: 1;
   width: extend-to-zoom;
 }
-@-ms-viewport{
+@-ms-viewport {
   width: extend-to-zoom;
-  zoom: 1.0;
+  zoom: 1;
 }
