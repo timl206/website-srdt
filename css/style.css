@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  color: antiquewhite;
+  text-align: left;
+}
+
+h1 {
+  font-size: 400%;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+h2 {
+  color: black;
+  font-size: 60px;
+  background-size: 100%;
+}
+
+p {
+  padding-left: 80px;
+}
+
+a {
+  color: cadetblue;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px 20px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.btn {
+  position: fixed static;
+  top: 50%;
+  left: 50%;
+  transform: translate(60%, 90%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: antiquewhite;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.intro {
+  margin-bottom: 5rem;
+}
+
+.logo {
+  float: left;
+  padding-left: 80px;
+}
